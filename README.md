@@ -10,7 +10,7 @@ Open a Developer Command Prompt and navigate to the main folder (where the Makef
 
 Compile the code with:
 
-`cl /EHsc /Fo.\obj\ src/*.cpp /link /out:run.exe`
+`cl /EHsc src/*.cpp /link /out:run.exe`
 
 And run the code with:
 

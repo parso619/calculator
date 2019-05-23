@@ -2,7 +2,7 @@
 
 ## Compile
 
-The code have successfully been compiled on Windows with the Microsoft C++ compiler, through the Developer Command Prompt provide with Visual Studios. It has also successfully been cimpiled on Linux with g++.
+The code have successfully been compiled on Windows with the Microsoft C++ compiler, through the Developer Command Prompt provide with Visual Studios. It has also successfully been cimpiled on Linux with g++. The code requires C++11.
 
 ### Windows
 
@@ -28,7 +28,7 @@ The code can then be compiled either by using the Makefile, by simply typing:
 
 `make`
 
-Or compile the code diectly with g++:
+Or compile the code directly with g++:
 
 `g++ -std=c++11 src/*.cpp -o run.o`
 
